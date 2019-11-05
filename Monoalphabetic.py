@@ -1,3 +1,4 @@
+#Ritom Gupta, PB40-B3, T.Y B.Tech CSE
 def keymap_replace(string:str, mappings:dict,lower_keys=False,lower_values=False,lower_string=False)->str:
     replaced_string=string.lower() if lower_string else string
     replaced_string=''.join(mappings.get(char,char) for char in str)

@@ -1,3 +1,4 @@
+#Ritom Gupta, PB40-B3, T.Y B.Tech CSE
 def encrypt(str):
     a,j,n=122,0,int(input("Enter shift:"))
     if(str.isupper()):
