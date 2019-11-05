@@ -11,7 +11,7 @@ def keymap_rev_replace(string:str, mappings:dict,lower_keys=False,lower_values=F
     return replaced_string
 
 str=input("Enter your string:")
-dict={"a":"b","c":"d","b":"z"}
+dict={"a":"b","c":"d","b":"z","e":"r"}
 print(keymap_replace(str,dict,lower_keys=False,lower_values=False,lower_string=True))
 str=input("Enter encoded message:")
 print(keymap_rev_replace(str,dict,lower_keys=False,lower_values=False,lower_string=True))
