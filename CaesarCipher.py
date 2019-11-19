@@ -1,4 +1,5 @@
 #Ritom Gupta, PB40-B3, T.Y B.Tech CSE
+
 def encrypt(str):
     a,j,n=122,0,int(input("Enter shift:"))
     if(str.isupper()):
@@ -37,3 +38,12 @@ str=input("Enter string:")
 encrypt(str)
 enc_str=input("Enter encrypted string:")
 decrypt(enc_str)
+
+# Enter string:the quick brown fox jumps over the lazy dog
+# Enter shift:24
+# rfc osgai zpmul dmv hsknq mtcp rfc jyxw bme
+# Enter encrypted string:rfc osgai zpmul dmv hsknq mtcp rfc jyxw bme
+# Enter shift:24
+# the quick brown fox jumps over the lazy dog
+#
+# Process finished with exit code 0
