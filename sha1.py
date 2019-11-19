@@ -1,6 +1,6 @@
 import hashlib
-
-str="Preeyesh"
+f=open("data.txt","r")
+str=f.read()
 
 result=hashlib.sha1(str.encode())
 
